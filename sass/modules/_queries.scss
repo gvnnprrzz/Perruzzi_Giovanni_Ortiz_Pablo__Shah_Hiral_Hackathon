@@ -243,8 +243,9 @@
         border-radius: 50%;
         display: inline-block;
     }
-    #productimage {
-        display: flex;
+    .mainArea {
+        display: grid;
+        margin-left: 40px;
     }
 }
 

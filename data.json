@@ -2,16 +2,16 @@
     "fvrtthing1": {
         "title": "Thermostat",
         "banner": "This is a normal thermostat",
-        "photo": "wall_device.jpg"
+        "photo": "image1.png"
     },
     "fvrtthing2": {
         "title": "Thermostat Lite",
         "banner": "This is light thermostat",
-        "photo": "watch_app.jpg"
+        "photo": "image2.png"
     },
     "fvrtthing3": {
         "title": "Thermostat Pro",
         "banner": "This is pro thermostat",
-        "photo": "mobile_app.jpg"
+        "photo": "image3.png"
     }
 }

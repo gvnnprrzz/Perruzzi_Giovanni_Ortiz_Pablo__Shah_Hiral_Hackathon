@@ -38,7 +38,7 @@
         let fvrtthingTitle = document.querySelector("h2"),
             fvrtthingSubTitle = document.querySelector("h3"),
             // fvrtthingDesc = document.querySelector("p"),
-            fvrtthingImg = document.querySelector("img");
+            fvrtthingImg = document.querySelector(".productimg");
 
         // debugger;
 
@@ -55,8 +55,6 @@
     // buttonContainer.addEventListener('click', showData),
 
     // for button functionality
-
-
     button.forEach(button => button.addEventListener("click", showData));
 
 })();
