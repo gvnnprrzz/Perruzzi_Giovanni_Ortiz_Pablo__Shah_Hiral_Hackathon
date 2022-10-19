@@ -23,6 +23,7 @@
     /* Header starts */
 
     #header {
+        background-color: #244673;
         grid-column: 1 / 5;
     }
 
@@ -38,13 +39,15 @@
 
     .main-nav ul {
         grid-column: 2 / 4;
-        margin-top: 4.5em;
+        margin-top: 55px;
         margin-left: -4em;
     }
 
     .main-nav ul li {
+        color: #FFFFFF;
         display: inline;
-        margin-left: 237px;
+        font-family: sans-serif;
+        margin-left: 238px;
         font-size: 29px;
     }
 
@@ -55,8 +58,8 @@
     }
 
     #profile-pic {
-        margin-left: 17.4em;
-        margin-top: 15px;
+        margin-left: 21.9em;
+        margin-top: 38px;
     }
 
     /* Header ends */
@@ -66,41 +69,47 @@
     #hero {
         grid-column: 1 / 5;
         margin-top: 50px;
-        margin-bottom: 20px;
+        margin-bottom: 66px;
     }
 
     #hero-image {
         overflow: hidden;
+        margin-left: 50px;
     }
 
     #product-info {
         grid-column: 1 / 5;
         height: 425px;
+        margin-bottom: 102px;
     }
 
     .desc {
         font-size: 27px;
+        font-family: Arial, sans-serif;
         width: 459px;
         height: 351px;
         margin-left: 100px;
     }
 
     .product-image-1 {
-        margin-left: 41em;
+        border-radius: 13px;
+        margin-left: 40.5em;
         position: relative;
-        top: -15em;
+        top: -22em;
     }
 
     .product-image-2 {
+        border-radius: 13px;
         position: relative;
-        top: -15em;
-        margin-left: 20px;
+        top: -22em;
+        margin-left: 15px;
     }
 
     .product-image-3 {
+        border-radius: 13px;
         position: relative;
-        top: -15em;
-        margin-left: 20px;
+        top: -22em;
+        margin-left: 15px;
     }
 
     #call-to-action {
@@ -112,24 +121,26 @@
     }
 
     .text {
-        margin-left: 2em;
+        font-family: Arial, sans-serif;
+        margin-left: 221px;
         font-size: 78px;
         position: relative;
         top: -1em;
     }
 
     .desc-2 {
+        font-family: sans-serif;
         font-size: 25px;
         text-align: center;
         width: 743px;
         height: 147px;
-        margin-left: 12.5em;
+        margin-left: 408px;
         position: relative;
         top: -3em;
     }
 
     .color-1 {
-        margin-left: 28em;
+        margin-left: 32.9em;
         position: relative;
         top: -3em;
     }
@@ -147,17 +158,18 @@
     }
 
     .cost {
-        margin-left: -6.3em;
+        font-family: Arial, sans-serif;
+        margin-left: -6.6em;
         font-size: 55px;
         position: relative;
         top: 0.4em;
     }
 
     button {
-        margin-left: -7.5em;
+        margin-left: -10.1em;
         position: relative;
         top: 4em;
-        margin-bottom: 4em;
+        margin-bottom: 50px;
     }
 
     /* Main ends */
@@ -179,7 +191,7 @@
     .footer-link-3,
     .footer-link-4 {
         grid-column: 1 / 5;
-        margin-left: 175px;
+        margin-left: 160px;
         margin-bottom: 50px;
     }
 
@@ -197,7 +209,23 @@
     .link-12 {
         color: #FFFFFF;
         font-size: 18px;
-        margin-left: 20em;
+        margin-left: 13em;
+    }
+
+    .link-8 {
+        margin-left: 11.3em;
+    }
+
+    .link-10 {
+        margin-left: 13.7em;
+    }
+
+    .link-11 {
+        margin-left: 14.2em;
+    } 
+
+    .link-12 {
+        margin-left: 11.6em;
     }
 
     .copyright {
@@ -209,7 +237,7 @@
 
     .copyright-text {
         font-size: 13px;
-        margin-left: 65em;
+        margin-left: 64.8em;
         margin-top: 0.5em;
     }
 }
