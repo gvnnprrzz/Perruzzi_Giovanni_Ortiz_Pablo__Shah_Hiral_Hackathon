@@ -1,4 +1,4 @@
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Main logo](images/Main_Logo_Colour.png "Main logo")
 
 # Hackathon - Midterm
 
