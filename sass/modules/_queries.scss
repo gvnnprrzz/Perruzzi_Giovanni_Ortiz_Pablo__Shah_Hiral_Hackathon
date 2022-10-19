@@ -2,13 +2,17 @@
 
 @media screen and (min-width: 428px) {}
 
+
 /* Mobile ends */
+
 
 /* Tablet starts */
 
 @media screen and (min-width: 800px) {}
 
+
 /* Tablet ends */
+
 
 /* -------- Desktop starts --------- */
 
@@ -19,30 +23,24 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-
     /* Header starts */
-
     #header {
         background-color: #244673;
         grid-column: 1 / 5;
     }
-
     #logo {
         margin-left: 50px;
         margin-top: 15px;
     }
-
     .main-nav {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-
     .main-nav ul {
         grid-column: 2 / 4;
         margin-top: 55px;
         margin-left: -4em;
     }
-
     .main-nav ul li {
         color: #FFFFFF;
         display: inline;
@@ -50,39 +48,31 @@
         margin-left: 238px;
         font-size: 29px;
     }
-
     a {
         text-decoration: none;
         width: 200px;
         height: 166px;
     }
-
     #profile-pic {
         margin-left: 21.9em;
         margin-top: 38px;
     }
-
     /* Header ends */
-
     /* Main starts */
-
     #hero {
         grid-column: 1 / 5;
         margin-top: 50px;
         margin-bottom: 66px;
     }
-
     #hero-image {
         overflow: hidden;
         margin-left: 50px;
     }
-
     #product-info {
         grid-column: 1 / 5;
         height: 425px;
         margin-bottom: 102px;
     }
-
     .desc {
         font-size: 27px;
         font-family: Arial, sans-serif;
@@ -90,36 +80,30 @@
         height: 351px;
         margin-left: 100px;
     }
-
     .product-image-1 {
         border-radius: 13px;
         margin-left: 40.5em;
         position: relative;
         top: -22em;
     }
-
     .product-image-2 {
         border-radius: 13px;
         position: relative;
         top: -22em;
         margin-left: 15px;
     }
-
     .product-image-3 {
         border-radius: 13px;
         position: relative;
         top: -22em;
         margin-left: 15px;
     }
-
     #call-to-action {
         grid-column: 1 / 5;
     }
-
     #product-images {
         margin-left: 100px;
     }
-
     .text {
         font-family: Arial, sans-serif;
         margin-left: 221px;
@@ -127,7 +111,6 @@
         position: relative;
         top: -1em;
     }
-
     .desc-2 {
         font-family: sans-serif;
         font-size: 25px;
@@ -138,25 +121,21 @@
         position: relative;
         top: -3em;
     }
-
     .color-1 {
         margin-left: 32.9em;
         position: relative;
         top: -3em;
     }
-
     .color-2 {
         margin-left: 1.5em;
         position: relative;
         top: -3em;
     }
-
     .color-3 {
         margin-left: 1.5em;
         position: relative;
         top: -3em;
     }
-
     .cost {
         font-family: Arial, sans-serif;
         margin-left: -6.6em;
@@ -164,28 +143,22 @@
         position: relative;
         top: 0.4em;
     }
-
     button {
         margin-left: -10.1em;
         position: relative;
         top: 4em;
         margin-bottom: 50px;
     }
-
     /* Main ends */
-
     /* Footer starts */
-
     #footer {
         margin-top: 50px;
         background-color: #244673;
         overflow: hidden;
     }
-
     .footer-link {
         margin-top: 50px;
     }
-
     .footer-link,
     .footer-link-2,
     .footer-link-3,
@@ -194,7 +167,6 @@
         margin-left: 160px;
         margin-bottom: 50px;
     }
-
     .link-1,
     .link-2,
     .link-3,
@@ -211,35 +183,70 @@
         font-size: 18px;
         margin-left: 13em;
     }
-
     .link-8 {
         margin-left: 11.3em;
     }
-
     .link-10 {
         margin-left: 13.7em;
     }
-
     .link-11 {
         margin-left: 14.2em;
-    } 
-
+    }
     .link-12 {
         margin-left: 11.6em;
     }
-
     .copyright {
         background-color: #FFFFFF;
         width: 1920px;
         height: 30px;
         margin-bottom: 51px;
     }
-
     .copyright-text {
         font-size: 13px;
         margin-left: 64.8em;
         margin-top: 0.5em;
     }
+    #buttonContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        margin-right: 140px;
+    }
+    #btn1 {
+        height: 120px;
+        width: 120px;
+        margin: 20px;
+        background-color: rgb(153, 13, 13);
+        border-radius: 50%;
+        border: 3px dotted rgb(0, 0, 0);
+        cursor: pointer;
+        display: inline-block;
+    }
+    #btn2 {
+        height: 120px;
+        width: 120px;
+        margin: 20px;
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+        border: 3px dotted rgb(0, 0, 0);
+        border-radius: 50%;
+        display: inline-block;
+    }
+    #btn3 {
+        height: 120px;
+        width: 120px;
+        margin: 20px;
+        cursor: pointer;
+        background-color: rgb(0, 0, 0);
+        border: 3px dotted rgb(255, 255, 255);
+        border-radius: 50%;
+        display: inline-block;
+    }
+    #productimage {
+        display: flex;
+    }
 }
+
 
 /* -------- Desktop ends ------------ */
