@@ -1,0 +1,19 @@
+Thermosecurity Data Base Queries
+
+SELECT * FROM tbl_devices
+WHERE device_brand = apple
+
+SELECT COUNT(os_name) FROM tbl_os
+WHERE os_name = android
+
+SELECT * FROM tbl_user, tbl_devices
+WHERE tbl_user.user_id = tbl_devices.device_brand
+
+SELECT * FROM tbl_user, tbl_price
+WHERE tbl_user.user_id = tbl_price.price_value
+
+SELECT tbl_user.user_city, tbl_os.os_name
+FROM tbl_user, tbl_os
+
+SELECT COUNT(device_name) FROM tbl_devices, tbl_user.user_id
+WHERE tbl_devices.device_name = tbl_user.user_name
