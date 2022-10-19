@@ -1,6 +1,6 @@
 ![Main logo](images/Main_Logo_Colour.png "Main logo")
 
-# Hackathon - Midterm
+# THERMOSECURITY by Housecom - Hackathon
 
 We will create an interactive application using 3D, video, and still images. As well as design and develop an engaging experience for the end user with which they can interact in a one-page mobile-first web application.
 
