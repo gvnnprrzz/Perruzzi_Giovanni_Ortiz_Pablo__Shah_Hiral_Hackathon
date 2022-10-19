@@ -1,0 +1,11 @@
+{
+    "color1": {
+        "photo": "red.jpg"
+    },
+    "color2": {
+        "photo": "white.jpg"
+    },
+    "color3": {
+        "photo": "black.jpg"
+    }
+}
