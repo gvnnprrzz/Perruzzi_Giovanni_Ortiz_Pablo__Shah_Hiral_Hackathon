@@ -2,7 +2,7 @@
 
 ![Main logo](images/Main_Logo_Colour.png "Main logo")
 
-Welcome to THERMOSECURITY, an exciting project developed during the Housecom Hackathon. Our goal is to create an interactive application that leverages 3D, video, and still images to deliver an engaging experience for end users. This innovative project is designed as a one-page mobile-first web application.
+Welcome to THERMOSECURITY, an exciting project developed during the Housecom Hackathon. Our goal is to create an interactive application that leverages 3D, and still images to deliver an engaging experience for end users. This innovative project is designed as a one-page mobile-first web application.
 
 ## Installation and Setup
 
