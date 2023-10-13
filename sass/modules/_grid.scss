@@ -1,0 +1,170 @@
+/* Mobile Starts */
+
+@media screen and (max-width: 767px) {
+	/* Grid Starts */
+
+	.header,
+	.main > *,
+	.footer {
+		display: grid;
+		grid-template-columns: auto;
+		grid-template-rows: auto;
+		align-items: center;
+	}
+
+	/* Grid Ends */
+
+	/* Homepage Starts */
+
+	/* Header Starts */
+
+	.logo,
+	.main-navigation {
+		grid-row: 1;
+	}
+
+	/* Header Ends */
+
+	/* Main Starts */
+
+	.product-images {
+		display: grid;
+		margin-top: 20px;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 20px;
+	}
+
+	/* Main Ends */
+
+	/* Footer Starts */
+
+	/* Footer Ends */
+
+	/* Homepage Ends */
+}
+
+/* Mobile Ends */
+
+/* Tablet Starts */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	/* Grid Starts */
+
+	.header,
+	.main > *,
+	.footer {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-rows: auto;
+		align-items: center;
+	}
+
+	/* Grid Ends */
+
+	/* Homepage Starts */
+
+	/* Header Starts */
+
+	.main-navigation {
+		grid-column: 6;
+	}
+
+	/* Header Ends */
+
+	/* Main Starts */
+
+	.tablet,
+	.desc {
+		grid-column: 1 / span 6;
+	}
+
+	.product-images {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		gap: 22px;
+		grid-column: 1 / span 6;
+		margin-top: 20px;
+	}
+
+	.mainArea {
+		grid-column: 1 / span 6;
+	}
+
+	/* Main Ends */
+
+	/* Footer Starts */
+
+	.footer-links,
+	.copyright {
+		grid-column: 1 / span 6;
+	}
+
+	/* Footer Ends */
+
+	/* Homepage Ends */
+}
+
+/* Tablet Ends */
+
+/* Desktop Starts */
+
+@media screen and (min-width: 1024px) {
+	/* Grid Starts */
+
+	.header,
+	.main > *,
+	.footer {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-rows: auto;
+		align-items: center;
+	}
+
+	/* Grid Ends */
+
+	/* Homepage Starts */
+
+	/* Header Starts */
+
+	.main-navigation {
+		grid-column: 3 / span 4;
+	}
+
+	/* Header Ends */
+
+	/* Main Starts */
+
+	.desktop-hero-image {
+		grid-column: 1 / span 6;
+	}
+
+	.desc {
+		grid-column: 1 / span 2;
+	}
+
+	.product-images {
+		grid-column: 3 / span 4;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 33px;
+	}
+
+	.mainArea {
+		grid-column: 1 / span 6;
+	}
+
+	/* Main Ends */
+
+	/* Footer Starts */
+
+	.footer-links,
+	.copyright {
+		grid-column: 1 / span 6;
+	}
+
+	/* Footer Ends */
+
+	/* Homepage Ends */
+}
+
+/* Desktop Ends */

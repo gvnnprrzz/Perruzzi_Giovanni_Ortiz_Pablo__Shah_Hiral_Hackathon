@@ -1,33 +1,56 @@
-![Main logo](images/Main_Logo_Colour.png "Main logo")
-
 # THERMOSECURITY by Housecom - Hackathon
 
-We will create an interactive application using 3D, video, and still images. As well as design and develop an engaging experience for the end user with which they can interact in a one-page mobile-first web application.
+![Main logo](images/Main_Logo_Colour.png "Main logo")
 
-## Installing and running app 
+Welcome to THERMOSECURITY, an exciting project developed during the Housecom Hackathon. Our goal is to create an interactive application that leverages 3D, video, and still images to deliver an engaging experience for end users. This innovative project is designed as a one-page mobile-first web application.
 
-Run the web app after cloning it into any directory with `cd`. You can also download the app by going to the repo, clicking the green button that says "Code," and clicking on "Download ZIP."
+## Installation and Setup
 
-## How to use Project
+To get started with THERMOSECURITY, follow these simple steps:
 
-Open the web app in the browser and enjoy.
+Clone the repository to your preferred directory using the following command:
 
-## How to contribute
+    git clone [Perruzzi_Giovanni_Ortiz_Pablo__Shah_Hiral_Hackathon]
+    cd [Perruzzi_Giovanni_Ortiz_Pablo__Shah_Hiral_Hackathon]
 
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+Alternatively, you can download the app by clicking the "Code" button and selecting "Download ZIP" from the repository's GitHub page.
+
+Run the web app in your local environment.
+
+## How to Use the Project
+
+After setting up the project, simply open the web app in your preferred web browser to enjoy the interactive experience it offers.
+
+## How to Contribute
+
+We welcome contributions from the community to make THERMOSECURITY even better. Here's how you can contribute:
+
+Fork the repository to create your copy.
+
+Create a new feature branch using the following command:
+
+    git checkout -b my-new-feature
+
+Commit your changes with a meaningful message:
+
+    git commit -m 'Add some feature'
+
+Push your changes to the branch you created:
+
+    git push origin my-new-feature
+
+Finally, submit a pull request to have your changes reviewed and integrated into the project.
+
+We appreciate your contributions and look forward to working together!
 
 ## Credits
 
-* [Hiral Shah](https://github.com/hiralshah7 "Personal Account")
-* [Pablo Ortiz](https://github.com/ortizp978 "Personal Account")
-* Giovanni Perruzzi
+THERMOSECURITY is a collaborative effort, and we would like to thank the following contributors:
+
+- [Hiral Shah](https://github.com/hiralshah7 "Personal Account")
+- [Pablo Ortiz](https://github.com/ortizp978 "Personal Account")
+- Giovanni Perruzzi
 
 ## License
 
-MIT
-
-Enjoy!
+THERMOSECURITY is released under the MIT License. Enjoy contributing and using this project!

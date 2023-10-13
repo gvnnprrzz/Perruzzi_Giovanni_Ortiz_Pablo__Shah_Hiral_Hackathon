@@ -1,119 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet" type="text/css">
-    <title>THERMOSECURITY by Housecom</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet" type="text/css">
+        <title>THERMOSECURITY by Housecom</title>
+    </head>
 
-<body>
-    <header class="header">
-        <section id="header">
-            <h1 class="hidden">Header</h1>
-            <div class="logo main-nav">
+    <body>
+        <header class="header">
+            <h1 class="hidden">Homepage</h1>
+            <div class="logo">
                 <a href="index.html">
-                    <img src="images/main_logo_white_2.png" alt="Logo" id="logo">
+                    <img class="logo" src="images/main_logo_white_2.png" alt="THERMOSECURITY by Housecom - Logo">
                 </a>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact us</li>
-                </ul>
-                <img src="images/profilepic.png" alt="Profile pic" id="profile-pic">
             </div>
-        </section>
-    </header>
-    <main id="content">
-        <section id="hero">
-            <h2 class="hidden">Main</h2>
-            <img src="images/hero_image_1.jpg" alt="Hero image" id="hero-image">
-        </section>
-        <section id="product-info">
-            <h2 class="hidden">Product Info</h2>
-            <p class="desc">If you 're looking for a new thermostat, you've come to the right place. Our selection of thermostats includes options for a variety of home types and budgets. Whether you 're looking for a basic model or a top-of-the-line, energy-saving option,
-                we've got you covered. Here withh thermostat you can accsess your room wherever you go just with one tap you got us. Currently we are Available with exotic three colors which you can see down below. A product worth trying.</p>
-            <img src="images/mobile_app.jpg" alt="Product image" class="product-image-1">
-            <img src="images/watch_app.jpg" alt="Product image" class="product-image-2">
-            <img src="images/wall_device.jpg" alt="Product image" class="product-image-3">
-        </section>
-        <section id="call-to-action">
-            <h2 class="hidden">Call To Action</h2>
-            <section class="mainArea">
-                <span class="text2">Buy a Thermostat</span>
-                <p class="desc-2">The Product is Available in Exciting three colors.</p>
-                <img class="productimg" src="images/red.jpg" alt="">
-                <section id="container">
-                    <section class="btnBox">
-                        <div id="buttonContainer">
-                            <h2 class="hidden">Call To Action</h2>
-                    </section>
-                    <div class="button" id="btn1" data-list="color1"></div>
-                    <div class="button" id="btn2" data-list="color2"></div>
-                    <div class="button" id="btn3" data-list="color3"></div>
+            <nav class="main-navigation">
+                <h2 class="hidden">Main Navigation</h2>
+                <div class="menu">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <ul class="menu-links">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+                <div class="profile-pic">
+                    <img src="images/profilepic.png" alt="Profile pic" class="profile-pic">
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="hero-image">
+                <h2 class="hidden">Hero Image</h2>
+                <img src="images/hero_image_1.jpg" alt="Hero Image - Banner" class="desktop-hero-image tablet">
+                <img src="images/hero_image_m.jpg" alt="Hero Image - Banner" class="mobile-hero-image">
+            </section>
+            <section class="product-info">
+                <h2 class="hidden">Product Info</h2>
+                <p class="desc">If you 're looking for a new thermostat, you've come to the right place. Our selection
+                    of thermostats includes options for a variety of home types and budgets. Whether you 're looking for
+                    a basic model or a top-of-the-line, energy-saving option,
+                    we've got you covered. Here with thermostat you can access your room wherever you go just with one
+                    tap you got us. Currently we are Available with exotic three colors which you can see down below. A
+                    product worth trying.
+                </p>
+                <div class="product-images">
+                    <img src="images/mobile_app.jpg" alt="Product Image - Mobile App" class="product-image-1">
+                    <img src="images/watch_app.jpg" alt="Product Image - Watch App" class="product-image-2">
+                    <img src="images/wall_device.jpg" alt="Product Image - Thermostat" class="product-image-3">
+                </div>
+            </section>
+            <section class="call-to-action">
+                <h2 class="hidden">Call To Action</h2>
+                <div class="mainArea">
+                    <span class="text2">Buy a Thermostat</span>
+                    <p class="desc-2">The Product is Available in Exciting three colors.</p>
+                    <img class="productimg" src="images/red.jpg" alt="Product Image - Thermostat Colors">
+                    <div class="product-colors">
+                        <div class="button" id="btn1" data-list="color1"></div>
+                        <div class="button" id="btn2" data-list="color2"></div>
+                        <div class="button" id="btn3" data-list="color3"></div>
                     </div>
-                    <span class="cost">$250.00</span>
+                    <div class="price">
+                        <span class="cost">$250.00</span>
+                    </div>
                     <div class="cartBtn">
                         <button class="cart" type="submit">ADD TO CART</button>
                     </div>
-
-
-                </section>
-    </main>
-    <footer id="footer">
-        <h1 class="hidden">Footer</h1>
-        <div class="footer-link">
-            <a href="">
-                <span class="link-1">Placing an order</span>
-            </a>
-            <a href="">
-                <span class="link-2">Instagram</span>
-            </a>
-            <a href="">
-                <span class="link-3">Repairs</span>
-            </a>
-            <a href="">
-                <span class="link-4">Product availability</span>
-            </a>
-        </div>
-        <div class="footer-link-2">
-            <a href="">
-                <span class="link-5">Delivery options</span>
-            </a>
-            <a href="">
-                <span class="link-6">Facebook</span>
-            </a>
-            <a href="">
-                <span class="link-7">Help Center</span>
-            </a>
-            <a href="">
-                <span class="link-8">Recycling products</span>
-            </a>
-        </div>
-        <div class="footer-link-3">
-            <a href="">
-                <span class="link-9">View your cart</span>
-            </a>
-            <a href="">
-                <span class="link-10">Twitter</span>
-            </a>
-            <a href="">
-                <span class="link-11">Contact Us</span>
-            </a>
-            <a href="">
-                <span class="link-12">Reviews</span>
-            </a>
-        </div>
-        <div class="copyright">
-            <h2 class="copyright-text">copyright &copy; 2022 All rights reserved</h2>
-        </div>
-    </footer>
-    <script src="js/main.js" defer></script>
-</body>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <h2 class="hidden">Footer Content</h2>
+            <section class="footer-links">
+                <h2 class="hidden">Footer Links</h2>
+                <div class="footer-link">
+                    <a href="#repairs">
+                        <span class="link-1">Repairs</span>
+                    </a>
+                    <a href="#help-center">
+                        <span class="link-2">Help Center</span>
+                    </a>
+                    <a href="#product-availability">
+                        <span class="link-3">Product availability</span>
+                    </a>
+                    <a href="#recycling-products">
+                        <span class="link-4">Recycling products</span>
+                    </a>
+                    <a href="#reviews">
+                        <span class="link-5">Reviews</span>
+                    </a>
+                    <a href="#contact-us">
+                        <span class="link-6">Contact Us</span>
+                    </a>
+                    <a href="#instagram">
+                        <span class="link-7">Instagram</span>
+                    </a>
+                    <a href="#facebook">
+                        <span class="link-8">Facebook</span>
+                    </a>
+                    <a href="#twitter">
+                        <span class="link-9">Twitter</span>
+                    </a>
+                </div>
+            </section>
+            <div class="copyright">
+                <h2 class="copyright-text">COPYRIGHT &copy; THERMOSECURITY BY HOUSECOM 2022 All rights reserved</h2>
+            </div>
+        </footer>
+        <script src="js/main.js" defer></script>
+    </body>
 
 </html>
