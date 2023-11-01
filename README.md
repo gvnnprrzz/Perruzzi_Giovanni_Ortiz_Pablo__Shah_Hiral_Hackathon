@@ -2,7 +2,7 @@
 
 ![Main logo](images/Main_Logo_Colour.png "Main logo")
 
-Welcome to THERMOSECURITY, an exciting project developed during the Housecom Hackathon. Our goal is to create an interactive application that leverages 3D, and still images to deliver an engaging experience for end users. This innovative project is designed as a one-page mobile-first web application.
+Welcome to THERMOSECURITY, an exciting project developed during the Housecom Hackathon. Our goal is to create an interactive application that delivers an engaging experience for end users using both 3D and still images. We designed this innovative project as a one-page mobile-first web application.
 
 ## Installation and Setup
 
@@ -19,7 +19,7 @@ Run the web app in your local environment.
 
 ## How to Use the Project
 
-After setting up the project, simply open the web app in your preferred web browser to enjoy the interactive experience it offers.
+After setting up the project, open the web app in a live server through VS Code and enjoy the interactive experience it offers.
 
 ## How to Contribute
 
@@ -53,4 +53,4 @@ THERMOSECURITY is a collaborative effort, and we would like to thank the followi
 
 ## License
 
-THERMOSECURITY is released under the MIT License. Enjoy contributing and using this project!
+We release ThermoSecurity under the MIT License. Enjoy contributing to and using this project!
