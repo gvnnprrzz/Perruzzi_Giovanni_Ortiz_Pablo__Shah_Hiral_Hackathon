@@ -66,7 +66,7 @@
 	/* Header Starts */
 
 	.main-navigation {
-		grid-column: 6;
+		grid-column: 5 / span 2;
 	}
 
 	/* Header Ends */
@@ -147,6 +147,7 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		gap: 33px;
+		padding: 20px;
 	}
 
 	.mainArea {

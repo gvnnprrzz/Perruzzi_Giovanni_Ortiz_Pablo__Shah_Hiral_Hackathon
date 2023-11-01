@@ -1,14 +1,15 @@
-/* Tablet Starts */
+/* Tablet Styles */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-	/* Homepage Starts */
+	/* Homepage Styles */
 
-	/* Header Starts */
-
+	/* Header Styles */
 	.header {
 		background-color: #333;
 		color: #fff;
 		padding: 15px;
+		transition: background-color 0.3s ease;
+		cursor: pointer;
 	}
 
 	.logo {
@@ -28,6 +29,7 @@
 		width: 40px;
 		height: 30px;
 		margin-right: 10px;
+		cursor: pointer;
 	}
 
 	.line {
@@ -38,7 +40,7 @@
 	}
 
 	.menu.open .line:nth-child(1) {
-		transform: translateY(8px) rotate(45deg);
+		transform: translateY(6px) rotate(45deg);
 	}
 
 	.menu.open .line:nth-child(2) {
@@ -46,7 +48,7 @@
 	}
 
 	.menu.open .line:nth-child(3) {
-		transform: translateY(-8px) rotate(-45deg);
+		transform: translateY(-6px) rotate(-45deg);
 	}
 
 	.menu.open ul {
@@ -55,11 +57,11 @@
 
 	.menu-links {
 		position: absolute;
-		top: -24px;
-		left: 10px;
+		top: 40px;
+		left: 0;
 		background-color: #333;
 		display: none;
-		width: 108%;
+		width: 100%;
 	}
 
 	ul li {
@@ -76,10 +78,9 @@
 		height: 40px;
 	}
 
-	/* Header Ends */
+	/* Header Styles End */
 
-	/* Main Starts */
-
+	/* Main Styles */
 	.main {
 		padding: 30px;
 	}
@@ -107,13 +108,13 @@
 	}
 
 	.product-images {
-		display: flex;
 		margin-top: 20px;
 	}
 
 	.product-images img {
 		width: 100%;
 		height: auto;
+		transition: transform 0.3s ease;
 	}
 
 	.call-to-action {
@@ -156,19 +157,23 @@
 		cursor: pointer;
 	}
 
+	.button:nth-child(1) {
+		margin-left: 0;
+	}
+
 	#btn1 {
 		background-color: #c00;
-		border: 1px dashed #000;
+		border: 2px dashed #000;
 	}
 
 	#btn2 {
 		background-color: #fff;
-		border: 1px dashed #000;
+		border: 2px dashed #000;
 	}
 
 	#btn3 {
 		background-color: #000;
-		border: 1px dashed #6b5f5f;
+		border: 2px dashed #6b5f5f;
 	}
 
 	.price {
@@ -191,10 +196,9 @@
 		cursor: pointer;
 	}
 
-	/* Main Ends */
+	/* Main Styles End */
 
-	/* Footer Starts */
-
+	/* Footer Styles */
 	.footer {
 		background-color: #333;
 		color: #fff;
@@ -220,9 +224,9 @@
 		font-size: 14px;
 	}
 
-	/* Footer Ends */
+	/* Footer Styles End */
 
-	/* Homepage Ends */
+	/* Homepage Styles End */
 }
 
-/* Tablet Ends */
+/* Tablet Styles End */
